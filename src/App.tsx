@@ -5,7 +5,7 @@ import MainView from "./MainView"
 import Register from "./Register"
 import Todos from "./Todos"
 import VacanteDetails from "./VacanteDetails"
-import IntLogin from "./IntLogin"
+//import IntLogin from "./IntLogin"
 import {
   BrowserRouter as Router,
   Route,
