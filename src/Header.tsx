@@ -1,6 +1,4 @@
 import {useNavigate} from 'react-router-dom'
-import { useEffect } from 'react';
-import $ from 'jquery';
 
 function Header() {
 
@@ -14,11 +12,11 @@ function Header() {
         navigate(route);
     }
 
-    useEffect(() => {
+  /*  useEffect(() => {
         // Cargar bootsnav.js
         $.getScript('/public/js/bootsnav.js', () => {
          });
-      }, []);
+      }, []);*/
 
   return (
     <>
