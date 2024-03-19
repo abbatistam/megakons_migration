@@ -26,7 +26,7 @@ function Header() {
                     <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i className="fa fa-bars"></i>
                     </button>
-                    <a className="navbar-brand" href="index.php"><img src="/public/img/logo.png" className="logo" alt="" /></a>
+                    <a className="navbar-brand" href="index.php"><img src="/img/logo.png" className="logo" alt="" /></a>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar-menu">
                     <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
