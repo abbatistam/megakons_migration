@@ -16,7 +16,7 @@ function Header() {
 
     useEffect(() => {
         // Cargar bootsnav.js
-        $.getScript('/src/js/bootsnav.js', () => {
+        $.getScript('/public/js/bootsnav.js', () => {
          });
       }, []);
 
