@@ -25,7 +25,7 @@ export interface Areas {
 
 export class ApiService {
   // URL base de la API
-  private readonly baseUrl: string = "http://localhost:5000";
+  private readonly baseUrl: string = import.meta.env.VITE_API_URL;
 
   constructor() {}
 
