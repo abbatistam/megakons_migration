@@ -1,8 +1,12 @@
 import axios from "axios";
 
+export interface Fecha {
+  $date: string;
+}
+
 export interface Vacantes {
   descripcion_vacante: string;
-  fecha_crea: string;
+  created_at: Fecha;
   id_area_vacante: number;
   id_vacante: number;
   lugar: string;

@@ -63,7 +63,7 @@ function VacanteDetails () {
                                         <li><span>Website:</span>https://megakons.com/</li>
                                         <li><span>Salario:</span>{vacantes[id]?.salario_minimo}-{vacantes[id]?.salario_maximo}</li>
                                         <li><span>Correo:</span>info@megakons.com</li>
-                                        <li><span>Fecha Publicación:</span>{vacantes[id]?.fecha_crea}</li>
+                                        <li><span>Fecha Publicación:</span>{vacantes[id]?.created_at.$date.split('T')[0]}</li>
                                     </ul>
                                 </div>
                             </div>
